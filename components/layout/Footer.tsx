@@ -107,7 +107,10 @@ export default function Footer() {
               </li>
               <li className="flex items-center">
                 <Phone className="mr-2 h-5 w-5 text-chart-1 flex-shrink-0" />
-                <span className="text-muted-foreground">+383 48 353 508</span>
+                <div className="flex flex-col">
+                  <span className="text-muted-foreground">+383 48 353 508</span>
+                  <span className="text-muted-foreground">+383 38 712 080</span>
+                </div>
               </li>
               <li className="flex items-center">
                 <Mail className="mr-2 h-5 w-5 text-chart-1 flex-shrink-0" />

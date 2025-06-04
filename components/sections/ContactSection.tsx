@@ -98,6 +98,8 @@ export default function ContactSection() {
                   <div>
                     <h4 className="font-semibold mb-1">Phone Number</h4>
                     <p className="text-muted-foreground">+383 48 353 508</p>
+                    <p className="text-muted-foreground">+383 38 712 080</p>
+
                   </div>
                 </div>
                 

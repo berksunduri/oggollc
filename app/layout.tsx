@@ -17,7 +17,7 @@ const robotoCondensed = Roboto_Condensed({
 });
 
 export const metadata: Metadata = {
-  title: "OGGO•LLC | Industrial Steel Manufacturing & Services",
+  title: "OGGO LLC | Industrial Steel Manufacturing & Services",
   description:
     "Kosovo-based steel manufacturing company specializing in galvanizing, welding, and steel parts for cable cars, shipyards, harbors, and cargo transport across Europe.",
   keywords:

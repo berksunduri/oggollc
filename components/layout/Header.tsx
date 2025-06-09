@@ -7,12 +7,12 @@ import { cn } from "@/lib/utils";
 import ModeToggle from "@/components/ui/mode-toggle";
 
 const navigation = [
-  { name: "Home", href: "#home" },
-  { name: "Services", href: "#services" },
-  { name: "Industries", href: "#industries" },
-  { name: "About", href: "#about" },
-  { name: "Projects", href: "#projects" },
-  { name: "Contact", href: "#contact" },
+  { name: "Home", href: "/" },
+  { name: "Services", href: "/services" },
+  { name: "Industries", href: "/#industries" },
+  { name: "About", href: "/#about" },
+  { name: "Projects", href: "/#projects" },
+  { name: "Contact", href: "/#contact" },
 ];
 
 export default function Header() {
@@ -38,7 +38,7 @@ export default function Header() {
         "fixed top-0 w-full z-50 transition-all duration-300",
         scrolled
           ? "bg-background/95 backdrop-blur-sm shadow-md py-2"
-          : "bg-transparent py-4"
+          : "bg-background/50 backdrop-blur-sm py-4"
       )}
     >
       <div className="container mx-auto px-4">

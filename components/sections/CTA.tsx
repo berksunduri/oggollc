@@ -34,13 +34,14 @@ export default function CTA() {
               Partner with OGGO•LLC for exceptional steel manufacturing services tailored to your specific requirements.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <Button 
+                <Button 
                 size="lg" 
                 className="bg-white text-chart-1 hover:bg-white/90"
-              >
+                onClick={() => window.location.href = '/#contact'}
+                >
                 Request a Quote
                 <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
+                </Button>
               <Button 
                 size="lg" 
                 variant="outline" 

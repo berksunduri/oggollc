@@ -46,6 +46,7 @@ export default function HeroSection() {
             <Button 
               size="lg" 
               className="bg-chart-1 hover:bg-chart-1/90 text-white"
+              onClick={() => window.location.assign('/services')}
             >
               Our Services
             </Button>
@@ -53,6 +54,7 @@ export default function HeroSection() {
               size="lg" 
               variant="outline" 
               className="text-black dark:text-white border-white hover:bg-white/10"
+              onClick={() => window.location.href = '#contact'}
             >
               Contact Us
             </Button>

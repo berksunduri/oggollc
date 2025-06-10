@@ -9,6 +9,7 @@ import ModeToggle from "@/components/ui/mode-toggle";
 const navigation = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services" },
+  { name: "Training", href: "/training" },
   { name: "Industries", href: "/#industries" },
   { name: "About", href: "/#about" },
   { name: "Projects", href: "/#projects" },
@@ -46,7 +47,7 @@ export default function Header() {
           <div className="flex items-center">
             <Link
               href="/"
-              className="text-2xl font-bold font-heading text-primary flex items-center"
+              className="text-3xl font-bold font-heading text-primary flex items-center"
             >
               <span className="text-primary font-plagiata">
                 OGGO<span className="text-chart-1">•LLC</span>

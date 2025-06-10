@@ -25,7 +25,7 @@ export default function ServiceQuickNav() {
   };
 
   return (
-    <div className="sticky top-20 z-40 bg-background/95 backdrop-blur-sm border-b items-center border-border">
+    <div className="sticky top-14 z-40 bg-background/95 backdrop-blur-sm border-b items-center border-border">
       <div className="container px-4 mx-auto">
         <div className="flex justify-center overflow-x-auto py-4 space-x-2 scrollbar-hide">
           {services.map((service) => (
